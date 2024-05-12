@@ -1,0 +1,31 @@
+@import url(../../App.css);
+
+.welcome-text {
+    font-family: 'Quicksand', cursive;
+    font-size: 7em;
+    margin: 0;
+    width: 80%;
+}
+
+.welcome-div {
+    height: 100vh;
+    padding: 0 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.circle {
+    width: 27vh;
+    height: 27vh;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.bubble-div {
+    width: 20%;
+    float: center;
+}

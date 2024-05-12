@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+:root {
+  --background: #f4eae6;
+  --primary: #e57f84;
+  --primary-light: #f7d4d4;
+  --secondary: #1e405c;
+  --tertiary: #679186;
+  --tertiary-light: #bbd4ce;
+}
+
+.App {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  color: var(--secondary);
+  background-color: var(--background);
+}
+
+.general-info {
+  padding: 5% 8%;
+}
+
+.photo {
+  width: 50%;
+  border-radius: 50%;
+  border: 2px solid var(--secondary);
+}
+
+.name {
+  font-size: 2em;
+  margin: 0;
+}
+
+.role-title {
+  font-size: 1.5em;
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+.heading {
+  font-size: 2em;
+  font-weight: bold;
+  padding: 0 1em;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.squeeze {
+  padding: 0 2em;
+}
+
+.text {
+  font-size: larger;
+}
+
+.justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.section {
+  margin-top: 5em;
+  padding: 0 3em;
+}
+
+.bubble {
+  display: inline-flex;
+  align-items: center;
+  color: var(--background);
+  border-radius: 20px;
+  padding: 0.5em 1em;
+  margin: 0.3em;
+}
+
+@media only screen and (max-width: 600px) {
+  .photo {
+    width: 100%;
+  }
+
+  .section {
+    padding: 1em;
+  }
+
+  .heading {
+    font-size: 1em;
+  }
+}

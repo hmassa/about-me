@@ -1,0 +1,45 @@
+@import url('../../App.css');
+
+.title,
+.modal-title {
+  font-size: 2em;
+  font-weight: bold;
+  font-family: "Quicksand", sans-serif;
+}
+
+.subtitle,
+.modal-subtitle {
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+  font-family: "Quicksand", sans-serif;
+}
+
+.subtitle, .title {
+  color: var(--secondary);
+}
+
+.date {
+  font-family: "Quicksand", sans-serif;
+}
+
+.logo {
+  width: 100%;
+}
+
+.modal {
+  margin: 10% auto;
+  padding: 2em 3em 3em 3em;
+  width: 50%;
+  background-color: var(--tertiary-light);
+  color: var(--tertiary);
+  outline: 0;
+  border-radius: 5px;
+}
+
+.close-btn-container {
+  text-align: right;
+}
+
+.close-btn {
+  cursor: pointer;
+}
